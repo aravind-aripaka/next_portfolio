@@ -3,7 +3,6 @@
 The root server layout for the app.
 </ai_context>
 */
-
 import {
   createProfileAction,
   getProfileByUserIdAction
@@ -23,8 +22,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Mckay's App Template",
-  description: "A full-stack web app template."
+  title: "Aravind's Portfolio",
+  description: "A full-stack web app "
 }
 
 export default async function RootLayout({

@@ -23,23 +23,25 @@ export default async function PricingPage() {
 
   return (
     <div className="container mx-auto py-12">
-      <h1 className="mb-8 text-center text-3xl font-bold">Choose Your Plan</h1>
+      <h1 className="mb-8 text-center text-3xl font-bold">
+        Salary Expectations
+      </h1>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         <PricingCard
-          title="Monthly Plan"
-          price="$10"
-          description="Billed monthly"
-          buttonText="Subscribe Monthly"
+          title="Hourly Rate"
+          price="$25"
+          description="Per hour"
+          buttonText="Contact Me"
           buttonLink={
             process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK_MONTHLY || "#"
           }
           userId={userId}
         />
         <PricingCard
-          title="Yearly Plan"
-          price="$100"
-          description="Billed annually"
-          buttonText="Subscribe Yearly"
+          title="Annual Salary"
+          price="$70,000"
+          description="Per year"
+          buttonText="Contact Me"
           buttonLink={process.env.NEXT_PUBLIC_STRIPE_PAYMENT_LINK_YEARLY || "#"}
           userId={userId}
         />
