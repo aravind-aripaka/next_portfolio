@@ -25,7 +25,7 @@ const profiles = [
   },
   {
     icon: Github,
-    link: "https://github.com/aravind-aripaka"
+    link: "https://github.com/aravind-aripakaaravind-aripaka"
   },
   {
     icon: Youtube,
@@ -65,34 +65,38 @@ const projects = [
     title: "Buffalo Crime Analysis",
     description:
       "Analysis of crime patterns in Buffalo using data science and visualization techniques",
-    github: "https://github.com/aravind-aripaka/Buffalo_crime_analysis",
+    github:
+      "https://github.com/aravind-aripakaaravind-aripaka/Buffalo_crime_analysis",
     tech: ["Python", "Data Science", "Visualization"]
   },
   {
     title: "Stocks RAG LLM",
     description:
       "LLM-powered system for stock analysis using RAG (Retrieval Augmented Generation)",
-    github: "https://github.com/aravind-aripaka/stocks_rag_llm",
+    github: "https://github.com/aravind-aripakaaravind-aripaka/stocks_rag_llm",
     tech: ["LLM", "RAG", "Finance"]
   },
   {
     title: "FPS Shooter Game",
     description:
       "First-person shooter game developed with modern gaming technologies",
-    github: "https://github.com/aravind-aripaka/FPS_SHOOTER-dumadu",
+    github:
+      "https://github.com/aravind-aripakaaravind-aripaka/FPS_SHOOTER-dumadu",
     tech: ["Game Dev", "Unity", "C#"]
   },
   {
     title: "Crypto Ecosystem",
     description:
       "Comprehensive cryptocurrency ecosystem with various blockchain features",
-    github: "https://github.com/aravind-aripaka/Crypto-EcoSystem",
+    github:
+      "https://github.com/aravind-aripakaaravind-aripaka/Crypto-EcoSystem",
     tech: ["Blockchain", "Crypto", "Web3"]
   },
   {
     title: "Ethereum Transfer App",
     description: "Application for seamless Ethereum transfers and transactions",
-    github: "https://github.com/aravind-aripaka/Ethereum-transfer-App",
+    github:
+      "https://github.com/aravind-aripakaaravind-aripaka/Ethereum-transfer-App",
     tech: ["Ethereum", "Smart Contracts", "DApp"]
   }
 ]

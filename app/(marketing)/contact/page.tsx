@@ -31,7 +31,7 @@ export default async function ContactPage() {
         </Link>
 
         <Link
-          href="https://github.com/aravind-aripaka"
+          href="https://github.com/aravind-aripakaaravind-aripaka"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-card group flex flex-col items-center gap-4 rounded-xl border p-6 text-center shadow-sm transition-all hover:shadow-md"

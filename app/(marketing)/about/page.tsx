@@ -132,7 +132,10 @@ export default async function AboutPage() {
           </div>
           <div className="flex flex-wrap gap-3">
             <Button variant="outline" size="sm" asChild>
-              <Link href="https://github.com/aravind-aripaka" target="_blank">
+              <Link
+                href="https://github.com/aravind-aripakaaravind-aripaka"
+                target="_blank"
+              >
                 <Github className="mr-2 size-4" />
                 GitHub
               </Link>
